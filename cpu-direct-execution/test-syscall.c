@@ -2,7 +2,7 @@
  * @Author: misaki misaki-wang@qq.com
  * @Date: 2023-12-02 15:17:57
  * @LastEditors: misaki misaki-wang@qq.com
- * @LastEditTime: 2023-12-02 19:17:57
+ * @LastEditTime: 2023-12-02 19:28:36
  */
 #include <stdio.h>
 #include <sys/time.h>
@@ -28,7 +28,7 @@ int main() {
         read(fd, NULL, 0); // 执行 0 字节的读取
     }
 
-    // 记录结束时间
+    // 记录结束 时间
     gettimeofday(&end, NULL);
 
     // 计算总耗时
