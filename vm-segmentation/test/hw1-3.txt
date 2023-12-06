@@ -1,0 +1,19 @@
+ARG seed 3
+ARG address space size 128
+ARG phys mem size 512
+
+Segment register information:
+
+  Segment 0 base  (grows positive) : 0x00000000 (decimal 0)
+  Segment 0 limit                  : 20
+
+  Segment 1 base  (grows negative) : 0x00000200 (decimal 512)
+  Segment 1 limit                  : 20
+
+Virtual Address Trace
+  VA  0: 0x0000001e (decimal:   30) --> SEGMENTATION VIOLATION (SEG0)
+  VA  1: 0x00000045 (decimal:   69) --> SEGMENTATION VIOLATION (SEG1)
+  VA  2: 0x0000002f (decimal:   47) --> SEGMENTATION VIOLATION (SEG0)
+  VA  3: 0x0000004d (decimal:   77) --> SEGMENTATION VIOLATION (SEG1)
+  VA  4: 0x00000050 (decimal:   80) --> SEGMENTATION VIOLATION (SEG1)
+

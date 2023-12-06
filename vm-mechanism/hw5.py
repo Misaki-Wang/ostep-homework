@@ -2,7 +2,7 @@
 Author: misaki misakiwang74@gmail.com
 Date: 2023-12-06 16:57:07
 LastEditors: misaki misakiwang74@gmail.com
-LastEditTime: 2023-12-06 17:09:47
+LastEditTime: 2023-12-06 18:28:45
 '''
 import subprocess
 import matplotlib.pyplot as plt
@@ -39,3 +39,4 @@ plt.legend()
 plt.show()
 
 plt.savefig('hw5.png')
+    
